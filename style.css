@@ -1,0 +1,143 @@
+body {
+    align-items: center;
+    background: #ec8;
+    color: #663;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+canvas {
+    background: #663;
+}
+
+canvas {
+    height: 480px;
+    width: 640px;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 1.5em;
+}
+
+.net-worth {
+    font-family: 'Staatliches', sans-serif;
+    margin-left: 10px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: flex-start;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.object {
+    background: #ec8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+}
+
+.label {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+.label > img {
+    height: 30px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.inventory-item {
+    height: 30px;
+    margin: 2px;
+    width: auto;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.button {
+    background: #663;
+    color: #ec8;
+    cursor: pointer;
+    margin: 4px;
+    padding: 4px 8px 4px 8px;
+    transition: transform .1s;
+    transform: translateY(0);
+}
+
+.invalid-button {
+    background: #663;
+    color: #ec8;
+    margin: 4px;
+    opacity: .4;
+    padding: 4px 8px 4px 8px;
+}
+
+.trading-shelf > div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trading-button {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: .75em;
+    margin: 2px;
+    padding: 1px 1px 1px 8px;
+}
+
+.trading-icon {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    width: auto
+}
+
+.button:hover {
+    transform: translateY(1px);
+}
+
+.compass {
+    position: relative;
+}
+
+.compass > img {
+    position: absolute;
+    left: 0px;
+}
+
+.buy-shelf > div {
+    background: #944724;
+}
+
+.sell-shelf > div {
+    background: #474771;
+}
+
+/*
+dark: #663
+mid: #c93
+light: #ec8
+*/
