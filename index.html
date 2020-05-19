@@ -9,11 +9,11 @@
         <script src='lib/wheels.js'></script>
         <!--Game Logic-->
         <script src='lib/icon-loader.js'></script>
+        <script src='lib/sprite.js'></script>
         <script src='lib/audio.js'></script>
         <script src='lib/game.js'></script>
     </head>
     <body>
-
         <img src='assets/icons/rock.png' id='rock' class='hidden'>
         <img src='assets/icons/farmer.png' id='farmer' class='hidden'>
         <img src='assets/icons/cliffs/cliff_a.png' id='cliff_a' class='hidden'>
@@ -33,6 +33,11 @@
         <img src='assets/icons/cliffs/cliff_o.png' id='cliff_o' class='hidden'>
         <img src='assets/icons/cliffs/cliff_p.png' id='cliff_p' class='hidden'>
         <img src='assets/icons/cliffs/cliff_q.png' id='cliff_q' class='hidden'>
+        <img src='assets/icons/cliffs/cliff_r.png' id='cliff_r' class='hidden'>
+        <img src='assets/icons/cliffs/cliff_s.png' id='cliff_s' class='hidden'>
+        <img src='assets/icons/cliffs/cliff_t.png' id='cliff_t' class='hidden'>
+        <img src='assets/icons/cliffs/cliff_u.png' id='cliff_u' class='hidden'>
+        <img src='assets/icons/cliffs/cliff_v.png' id='cliff_v' class='hidden'>
         <img src='assets/icons/cactus.png' id='cactus' class='hidden'>
         <img src='assets/icons/house/floor.png' id='floor' class='hidden'>
         <img src='assets/icons/house/door.png' id='door' class='hidden'>
@@ -66,12 +71,29 @@
         <img src='assets/icons/water_meter_no_icon.png' id='water_meter_no_icon' class='hidden'>
         <img src='assets/icons/well.png' id='well' class='hidden'>
         <img src='assets/icons/skeleton.png' id='skeleton' class='hidden'>
+        <img src='assets/icons/fruit.png' id='fruit' class='hidden'>
+        <img src='assets/icons/seed.png' id='seed' class='hidden'>
+        <img src='assets/icons/x_button_up.png' id='x_button_up' class='hidden'>
+        <img src='assets/icons/x_button_down.png' id='x_button_down' class='hidden'>
+
+        <img src='assets/sprites/merchant_run_down.png' id='merchant_run_down' class='hidden'>
+        <img src='assets/sprites/merchant_run_up.png' id='merchant_run_up' class='hidden'>
+        <img src='assets/sprites/merchant_run_left.png' id='merchant_run_left' class='hidden'>
+        <img src='assets/sprites/merchant_run_right.png' id='merchant_run_right' class='hidden'>
+        <img src='assets/sprites/merchant_stand_down.png' id='merchant_stand_down' class='hidden'>
+        <img src='assets/sprites/merchant_stand_up.png' id='merchant_stand_up' class='hidden'>
+        <img src='assets/sprites/merchant_stand_left.png' id='merchant_stand_left' class='hidden'>
+        <img src='assets/sprites/merchant_stand_right.png' id='merchant_stand_right' class='hidden'>
 
         <audio id='door_sound' src='assets/sound/door_sound.mp3' preload=true></audio>
+        <audio id='cactus_break' src='assets/sound/cactus_break.mp3' preload=true></audio>
+        <audio id='wood_hit' src='assets/sound/wood_hit.mp3' preload=true></audio>
+        <audio id='item_scoop' src='assets/sound/item_scoop.mp3' preload=true></audio>
         <audio id='water_drop' src='assets/sound/water_drop.mp3' preload=true></audio>
         <audio id='water_fill_long' src='assets/sound/water_fill_long.mp3' preload=true></audio>
         <audio id='water_fill_short' src='assets/sound/water_fill_short.mp3' preload=true></audio>
 
         <canvas id='canvas' width='1600' height='1200'></canvas>
+        <div id='fullscreen'>|</div>
     </body>
 </html>
