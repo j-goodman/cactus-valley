@@ -1,0 +1,11 @@
+World Gen & Cliff Rendering:
+--dangling cliff icons
+
+Item Dropping
+--items can be dropped on top of cliff tiles
+
+Sound
+--Sounds repeat/echo, see the stone well
+
+Interiors
+--the exterior doesn't render while the camera is scrolling
