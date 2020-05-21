@@ -1,11 +1,12 @@
 World Gen & Cliff Rendering:
---dangling cliff icons
+--dangling cliff icons [Resolved]
 
 Item Dropping
 --items can be dropped on top of cliff tiles
 
 Sound
---Sounds repeat/echo, see the stone well
+--Sounds repeat/echo, see the stone well [Resolved]
 
 Interiors
---the exterior doesn't render while the camera is scrolling
+--the exterior doesn't render while the camera is scrolling [Resolved]
+--the rug and door are rendered behind the floorboards
